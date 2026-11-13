@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/openimg.jfif</file>
+        <file>images/item1.png</file>
+        <file>images/item2.png</file>
+        <file>images/item3.png</file>
+        <file>setwin.qss</file>
+        <file>images/back2.png</file>
+        <file>images/hum.png</file>
+        <file>images/login.png</file>
+        <file>images/lux.png</file>
+        <file>images/temp.png</file>
+        <file>images/four.png</file>
+        <file>images/one.png</file>
+        <file>login.qss</file>
+        <file>images/logo.png</file>
+        <file>images/cover.png</file>
+        <file>images/house.png</file>
+    </qresource>
+</RCC>

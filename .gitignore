@@ -1,0 +1,27 @@
+# Qt build artifacts
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.pro.user
+*.pro.user.*
+
+# Build directories
+bin/
+debug/
+release/
+build/
+build-*/
+
+# Runtime data
+fileIn/
+fileOut/
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/

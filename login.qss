@@ -1,0 +1,78 @@
+/* ========== 全局窗口样式 ========== */
+LoginWidget {
+    background-color: #f5f7fa; /* 浅灰背景，柔和不刺眼 */
+}
+
+/* ========== 标题标签（登录） ========== */
+QLabel#loginTitle { /* 注意：需要给标题Label设置objectName */
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    qproperty-alignment: 'AlignCenter'; /* 标题居中 */
+}
+
+/* ========== 普通标签（账号：/密码：/验证码） ========== */
+QLabel {
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 14px;
+    color: #555;
+}
+
+/* ========== 输入框（账号/密码/验证码） ========== */
+QLineEdit {
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 14px;
+    padding: 6px 10px; /* 内边距，让输入更舒适 */
+    border: 1px solid #ddd;
+    border-radius: 4px; /* 圆角 */
+    background-color: #fff;
+}
+QLineEdit:focus { /* 聚焦时高亮边框 */
+    border-color: #3498db;
+    outline: none; /* 去掉默认外框 */
+}
+QLineEdit::placeholder-text { /* 占位符文字样式 */
+    color: #ccc;
+}
+
+/* ========== 显示密码按钮 ========== */
+QToolButton {
+    border: none;
+    background-color: transparent; /* 透明背景 */
+    font-size: 16px;
+    color: #999;
+}
+QToolButton:hover {
+    color: #3498db; /*  hover时变蓝 */
+}
+
+/* ========== 按钮（登录/注册） ========== */
+QPushButton {
+    font-family: "微软雅黑", "Microsoft YaHei";
+    font-size: 14px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+/* 登录按钮（主色调） */
+QPushButton#loginBtn {
+    background-color: #3498db;
+}
+QPushButton#loginBtn:hover {
+    background-color: #2980b9; /* hover时加深颜色 */
+}
+QPushButton#loginBtn:pressed {
+    background-color: #1f618d; /* 按下时再加深 */
+}
+/* 注册按钮（次要色调） */
+QPushButton#regBtn {
+    background-color: #95a5a6;
+}
+QPushButton#regBtn:hover {
+    background-color: #7f8c8d;
+}
+QPushButton#regBtn:pressed {
+    background-color: #627172;
+}
